@@ -15,7 +15,7 @@ This  repository is to record papers/articles/workshop related to recommendation
     - Source Code: https://github.com/dmlc/xgboost
     - My blog: https://wenkangwei.github.io/2021/08/12/ensemble-learning-XGBoost/
 
-2. Factorization Machine - Steffen Rendle, Osaka University - 
+2. Factorization Machine - Steffen Rendle, Osaka University - IEEE Conf on Data Mining 2010
     - Problem to solve: Feature Crossing
     - Paper: https://www.csie.ntu.edu.tw/~b97053/paper/Rendle2010FM.pdf
     - Source Code: https://wenkangwei.gitbook.io/leetcode-notes/deep-learning/fm   https://github.com/shenweichen/DeepMatch/blob/master/deepmatch/models/fm.py
