@@ -29,7 +29,22 @@ This  repository is to record papers/articles/workshop related to recommendation
     - Problem to solve: Feature Generalization and Memorization
     - Links: [Paper](https://arxiv.org/pdf/1606.07792.pdf) | [Tensorflow](https://github.com/shenweichen/DeepCTR/blob/master/deepctr/models/wdl.py) | [Zhihu](https://zhuanlan.zhihu.com/p/142958834), [My_Blog](https://wenkangwei.github.io/2021/03/18/Recommendation-System-2-WideDeep/)
 
+
+3. DeepFM: A Factorization-Machine based Neural Network for CTR Prediction | Huifeng Guo, Noah’s Ark Research Lab, Huawei | IJCAI, 2017
+    - Problem to solve: Feature Crossing
+    - Links: [Paper](https://www.ijcai.org/proceedings/2017/0239.pdf) | [Tensorflow](https://github.com/shenweichen/DeepCTR/blob/master/deepctr/models/deepfm.py) , [PyTorch](https://wenkangwei.gitbook.io/leetcode-notes/deep-learning/deepfm)| [My_Blog](https://wenkangwei.github.io/2021/03/21/Recommendation-System-3-DeepFM/)
+
+4. Neural Factorization Machines for Sparse Predictive Analytics | Xiangnan He, National University of Singapore | SIGIR, 2017
+    - Problem to solve: Feature Crossing
+    - Links: [Paper](https://arxiv.org/pdf/1708.05027.pdf) | [Tensorflow](https://github.com/shenweichen/DeepCTR/blob/master/deepctr/models/nfm.py)  | [My_Blog](https://wenkangwei.github.io/2021/03/21/Recommendation-System-3-DeepFM/)
+
+5. more
+
+
+
 ### Graph Neural Network
+
+
 
 # 2. Data Mining
 ## Traditional RecSys
