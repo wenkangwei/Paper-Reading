@@ -4,8 +4,5 @@
 
 ## RecSys
 
+* [Graph Neural Networks in Recommender Systems: A Survey](recsys/gnn-survey.md)
 * [EGES](recsys/eges.md)
-
-***
-
-* [Graph Neural Networks in Recommender Systems: A Survey](untitled.md)
