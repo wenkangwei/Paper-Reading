@@ -53,7 +53,7 @@ sequential recommendation (序列推荐) 是假设用户的喜好上动态变化
 
 参考文章:
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 
 
@@ -63,21 +63,59 @@ sequential recommendation (序列推荐) 是假设用户的喜好上动态变化
 
 **方法**: 这类GNN模型把用户的社交网络图结合到user-item bi-graph 里面, 而结合的方法有以下两种:
 
-a. 把social network 和bi-graph 分开独立训练GNN, 之后再把embedding结合起来
+a) 把social network 和bi-graph 分开独立训练GNN, 之后再把embedding结合起来
+
+**优点:**  user-item bi-graph的embedding可以直接拿出来用,而社交同质化网络的embedding是在模拟用户影响行为的变化过程,可以用来挖掘用户之间的关系
+
+![](<../.gitbook/assets/image (7).png>)
+
+
 
 b) 把social network, bi-graph 通过合并以及采样直接输入到GNN得到整合后的node embedding
 
-![](<../.gitbook/assets/image (7).png>)
+优点: 用户社交影响和用户的兴趣能同时反映到一个模型里面
 
 ![](<../.gitbook/assets/image (5).png>)
 
 #### knowledge graph  enhanced
 
+优点: 这类GNN 借助知识谱图knowledge graph(KG)的结构, 把KG里面的语意解释结合到图里面, 提高了模型的可解释性
 
+缺点: KG需要一定的domain knowledge 领域知识, 而且需要人工去搭建, 人工成本高
+
+挑战:&#x20;
+
+1. graph construction: 怎么去构建图结构去平衡简单性和信息度, 图结构越简单,能保存的信息越少
+2. relation-aware aggregation: KG里面有多种边和关系, 怎么对应这些关系去建模聚合信息
 
 ### 4.  Sequential Recommendation
 
+Sequential Recommendation 的推荐框架可以总结为如下:
 
+![](<../.gitbook/assets/image (9).png>)
+
+步骤有
+
+1. 从序列构建图
+2. 把图输入GNN block进行embedding学习
+3. 通过序列模型对输入的序列的embedding进行聚合得到整合后的序列embedding
+4. 用序列embedding做任务推理
+
+参考文章:&#x20;
+
+![](<../.gitbook/assets/image (8).png>)
+
+
+
+思考:
+
+1. 出于 sequential model 不能并行计算加快计算速度, 是否能够把每个时刻的的输入增加对应的weight, 而模型会把当前的时刻t 也作为输入, 这个weight会基于t的变化而变化从而改变每个时刻输入的权重? 之后我们可以定时把某一段时间内的输入聚合到一起得到一个batch从而达到并行计算效果?
+
+#### social network enhanced
+
+
+
+#### knowledge graph  enhanced
 
 ### 5.Cases
 
