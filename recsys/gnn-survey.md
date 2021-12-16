@@ -113,15 +113,43 @@ Sequential Recommendation 的推荐框架可以总结为如下:
 
 #### social network enhanced
 
-
+和上面第3节一样, 可以把social network 结合到graph里面
 
 #### knowledge graph  enhanced
 
-### 5.Cases
+和上面第3节一样, 可以把KG结合到graph里面提高可解释性
+
+### 5. Other Task
+
+#### CTR prediction
+
+
+
+#### Point of interest recommendation(POI)
+
+Points-of-interest (POI) recommendation plays a key role in **location-based** service. Owing to the **spatial and temporal** characteristics, POI recommendation should model the geographical influence among POIs and the transition patterns from users’ sequential behaviors
+
+#### **Group recommendation**
+
+Group recommendation aims to suggest items to a group of users instead of an individual one \[34] based on their historical behaviors
+
+
+
+**Bundle recommendation**&#x20;
+
+Bundle recommendation aims to recommend a set of items as a whole for a user. For group recommendation, “group” is made up of users; for bundle recommendation, “group” means a set of items.
+
+结合衣服商品推荐领域, 是否可以推荐衣服组合, 以及互补商品组合, 解决选择困难症用户问题?
+
+
+
+**参考文章:**
+
+![](<../.gitbook/assets/image (10).png>)
 
 ### 6. Other ideas
 
-### 5. Reference
+### 7. Reference
 
 {% file src="../.gitbook/assets/GraphNeuralNetworksInRecommendationSystem.pdf" %}
 
