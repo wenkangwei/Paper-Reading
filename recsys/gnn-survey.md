@@ -34,26 +34,42 @@ sequential recommendation (序列推荐) 是假设用户的喜好上动态变化
 
 ### 3.  General Recommendation
 
-#### user-item interaction
+#### 3.1 user-item interaction
 
-这类方法考虑怎么利用GNN去充分传递互动的item, user之间的信息,提高bi-graph的user, item的representation的性能. 难点有一下几点
+**特点:** 这类方法考虑怎么利用GNN去充分传递互动的item, user之间的信息,提高bi-graph的user, item的representation的性能. 这类模型的算法流程基本如下:
 
-1. graph construction
-2. neighbor aggregation
-3. information update
-4. final node representation
+![](<../.gitbook/assets/image (6).png>)
 
-这几点是传统GNN的node  representation的更新的最基本的组成部分.
+
+
+**难点**有一下几点
+
+1. graph construction: 怎么去构建bi-graph 图,以及sample neighbor, 特别上图特别大的时候
+2. neighbor aggregation : 怎么去聚集邻居节点的信息? mean-pooling? sum pooling ? 等等
+3. information update: 怎么聚合中心节点和邻居节点聚合的信息
+4. final node representation: 怎么去用node  representation去预测最后的task
+
+这几点是传统GNN的node  representation的更新的最基本的组成部分. 不过在推荐里面, 最常见的是bi-graph类型的图
 
 参考文章:
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 
 
 #### social network enhanced
 
+**特点:** 这类GNN考虑用户之间的社交关系的相互影响 (influence of friends ), 以及 多个用户的兴趣的整合(Preference integration).
 
+**方法**: 这类GNN模型把用户的社交网络图结合到user-item bi-graph 里面, 而结合的方法有以下两种:
+
+a. 把social network 和bi-graph 分开独立训练GNN, 之后再把embedding结合起来
+
+b) 把social network, bi-graph 通过合并以及采样直接输入到GNN得到整合后的node embedding
+
+![](<../.gitbook/assets/image (7).png>)
+
+![](<../.gitbook/assets/image (5).png>)
 
 #### knowledge graph  enhanced
 
