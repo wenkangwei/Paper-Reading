@@ -123,15 +123,19 @@ Sequential Recommendation 的推荐框架可以总结为如下:
 
 #### CTR prediction
 
-
+点击率预测任务
 
 #### Point of interest recommendation(POI)
 
 Points-of-interest (POI) recommendation plays a key role in **location-based** service. Owing to the **spatial and temporal** characteristics, POI recommendation should model the geographical influence among POIs and the transition patterns from users’ sequential behaviors
 
+POI考虑到场景地点以及时间对用户兴趣的影响而进行推荐， 比如网红在某些地点打卡， 会推荐和氛围背景相对应的商品。或者旅游时推荐当地特产之类的推荐方式
+
 #### **Group recommendation**
 
-Group recommendation aims to suggest items to a group of users instead of an individual one \[34] based on their historical behaviors
+Group recommendation aims to suggest items to a group of users instead of an individual one based on their historical behaviors
+
+向一群人同时推荐商品， 而不是单个人推荐， 相当于分人群推荐
 
 
 
