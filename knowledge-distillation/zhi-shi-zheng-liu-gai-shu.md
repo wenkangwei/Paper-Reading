@@ -56,6 +56,12 @@ student model的中间输出特征表征（intermediate representation）逼近t
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
+## 其他
+
+蒸馏学习还有其他蒸馏知识方式， 比如说student 和teacher model 都用相同训练数据和训练目标， 数据蒸馏， 或者teacher model 内通过量化(quantize)裁剪一个子模型出来作为一个student 模型等等， 这里不一一介绍
+
+##
+
 ## 蒸馏学习训练方法
 
 蒸馏学习的常见训练方法分为下面3种:
