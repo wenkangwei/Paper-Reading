@@ -44,7 +44,7 @@ Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Represen
 
 {% embed url="https://zhuanlan.zhihu.com/p/434452481" %}
 
-
+{% embed url="https://imzhanghao.com/2022/10/27/multimodal-learning/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99" %}
 
 
 
