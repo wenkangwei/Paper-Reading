@@ -8,7 +8,7 @@
 
 ### DeepWalk
 
-![DeepWalk-objective](../.gitbook/assets/image.png)
+![DeepWalk-objective](<../.gitbook/assets/image (8).png>)
 
 ![](../.gitbook/assets/deepwalk-process.png)
 
