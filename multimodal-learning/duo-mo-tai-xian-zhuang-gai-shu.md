@@ -108,8 +108,6 @@ hybrid: 实例的信息和知识通过第三方数据集把不同模态数据集
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-## 多模态常见模型和区别
-
 
 
 
