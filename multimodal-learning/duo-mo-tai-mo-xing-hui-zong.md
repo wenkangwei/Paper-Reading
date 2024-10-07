@@ -1,8 +1,14 @@
 # 多模态模型汇总
 
-## 一些多模态模型
+## 一些经典的多模态模型
 
-### Image+Text
+0、Paper 参考
+
+{% embed url="https://arxiv.org/abs/2401.13601" %}
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+### 1、Image+Text
 
 * **CLIP (Contrastive Language-Image Pre-training)**
   * 思路：CLIP 目的还是文本和图像特征对齐， 主要思路是把image encoder(可以是ResNet或n ViT 作为backbone) 和Text encoder(一般是bert) 的embedding提取并归一化。 之后把两者的embedding做余弦相似度。text-image pair是匹对的话相似度接近1， 不匹对的接近0.用这种方法去训练模型。 CLIP对图文预测时可以直接用 zero-shot 方式直接预测， 或者可以通过fine-tunning形式去用新文本图片pair 微调
@@ -70,15 +76,11 @@
 
 
 
-### Multimodal For RecSys
+### 2、Multimodal For RecSys
 
 小红书多模态搜推应用
 
 {% embed url="https://www.bilibili.com/video/BV19W4y1f7Nw/?vd_source=1974b2589f7687d5f2267c89b7351f7b" %}
-
-{% embed url="https://arxiv.org/abs/2401.13601" %}
-
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/zchoi/Multi-Modal-Large-Language-Learning?tab=readme-ov-file" %}
 
