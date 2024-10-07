@@ -13,8 +13,24 @@
     *   CLIP在训练时用了大量v100 GPU和400million的image-text pair对进行训练了10多天， 消耗资源很大， 一般都是用来模型微调
 
         <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-* BLIP
-* BLIP2
+* BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+  * 思路：
+  * 优缺点
+  *   图解
+
+      <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+* BLIP2:&#x20;
+  * 思路
+  * 优缺点
+  *   图解
+
+      <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+* 思路：
+* 优缺点
+* 图解
+* 思路：
+* 优缺点
+* 图解
 * BLIP + Instruction Tunning
 * Visual Instruct Tunning - LLaVA
 *
@@ -54,5 +70,7 @@
 {% embed url="https://github.com/zchoi/Multi-Modal-Large-Language-Learning?tab=readme-ov-file" %}
 
 {% embed url="https://segmentfault.com/a/1190000044778456" %}
+
+{% embed url="https://arxiv.org/abs/2201.12086" %}
 
 {% embed url="https://arxiv.org/abs/2103.00020" %}
