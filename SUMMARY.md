@@ -6,6 +6,8 @@
 
 * [Graph Neural Networks in Recommender Systems: A Survey](recsys/gnn-survey.md)
 * [EGES](recsys/eges.md)
+* [Swing](recsys/swing.md)
+* [DSSM](recsys/dssm.md)
 
 ## Knowledge Distillation
 
