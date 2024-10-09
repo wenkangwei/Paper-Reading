@@ -4,6 +4,7 @@
 
 ## RecSys
 
+* [搜推广区别](recsys/sou-tui-guang-qu-bie.md)
 * [Graph Neural Networks in Recommender Systems: A Survey](recsys/gnn-survey.md)
 * [EGES](recsys/eges.md)
 * [Swing](recsys/swing.md)
