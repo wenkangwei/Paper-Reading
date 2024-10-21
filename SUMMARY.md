@@ -11,7 +11,8 @@
 * [DSSM](recsys/dssm.md)
 * [MIND](recsys/mind.md)
 * [User Interest Network](recsys/user-interest-network.md)
-* [Feature Crossing](recsys/feature-crossing.md)
+* [Feature Crossing](recsys/page-1.md)
+* [Multi-Domain Network](recsys/multi-domain-network.md)
 
 ## Knowledge Distillation
 
