@@ -10,7 +10,7 @@
 * [Swing](recsys/swing.md)
 * [DSSM](recsys/dssm.md)
 * [MIND](recsys/mind.md)
-* [Untitled](recsys/untitled.md)
+* [User Interest Network](recsys/user-interest-network.md)
 * [Page 1](recsys/page-1.md)
 
 ## Knowledge Distillation
