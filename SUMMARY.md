@@ -9,6 +9,9 @@
 * [EGES](recsys/eges.md)
 * [Swing](recsys/swing.md)
 * [DSSM](recsys/dssm.md)
+* [MIND](recsys/mind.md)
+* [Untitled](recsys/untitled.md)
+* [Page 1](recsys/page-1.md)
 
 ## Knowledge Distillation
 

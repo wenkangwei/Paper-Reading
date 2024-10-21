@@ -18,7 +18,7 @@ General Recommendation 一般推荐系统通常假设用户会有固定的兴趣
 
 打分方式:  输入用户特征 $$h_{u}^*$$, 商品特征$$h_{i}^*$$ , 计算用户对商品的得分y
 
-![](<../.gitbook/assets/image (2) (1) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 #### Sequential Recommendation
 
@@ -28,7 +28,7 @@ sequential recommendation (序列推荐) 是假设用户的喜好上动态变化
 
 推荐目标为:  给定一个序列$$s^u$$ 第$$i_{s,n+1}$$ 商品的推荐概率
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 ####
 
@@ -75,7 +75,7 @@ b) 把social network, bi-graph 通过合并以及采样直接输入到GNN得到�
 
 优点: 用户社交影响和用户的兴趣能同时反映到一个模型里面
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 #### knowledge graph  enhanced
 
