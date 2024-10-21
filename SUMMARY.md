@@ -13,6 +13,7 @@
 * [User Interest Network](recsys/user-interest-network.md)
 * [Feature Crossing](recsys/page-1.md)
 * [Multi-Domain Network](recsys/multi-domain-network.md)
+* [Training Loss](recsys/training-loss.md)
 
 ## Knowledge Distillation
 
