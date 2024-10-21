@@ -2,9 +2,9 @@
 
 
 
-## BCE
+## CrossEntropy loss
 
-
+* label smoothing
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-## Softmax loss
+## Log Softmax loss
 
 
 
