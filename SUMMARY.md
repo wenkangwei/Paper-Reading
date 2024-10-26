@@ -12,7 +12,8 @@
 * [召回 - MIND](recsys/zhao-hui-mind.md)
 * [用户兴趣建模 - User Interest Modeling](recsys/yong-hu-xing-qu-jian-mo-user-interest-modeling.md)
 * [Feature Crossing](recsys/page-1.md)
-* [Multi-Domain Network](recsys/multi-domain-network.md)
+* [多域建模Multi-Domain / Multi-Task Modeling](recsys/duo-yu-jian-mo-multidomain-multitask-modeling.md)
+* [多目标建模 - Multi-Target Modeling](recsys/duo-mu-biao-jian-mo-multitarget-modeling.md)
 * [Training Loss](recsys/training-loss.md)
 
 ## Knowledge Distillation

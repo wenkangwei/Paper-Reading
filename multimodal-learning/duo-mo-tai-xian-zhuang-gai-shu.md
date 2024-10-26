@@ -21,13 +21,13 @@
 1. joint representation联合表征：用于把所有不同模态向量投影到相同的空间， 用于捕捉不同模态之间互补信息， 并合并得到向量xm=f(x1, x2,...) 用于任务的预测, 比如推荐预测打分之类任务
 2. coordinate representation协作表征：把不同模态信息经过映射到coordinate space协作空间， 得到各个模态各自的表征。但是对映射后表征做了限制， 比如让映射后的表征f(x1), g(x2)向量要尽可能相似. 一个典型的例子是CLIP模型, 它让一只狗的图片和文本描述分别Image encoder和Text Encoder 得到图片和文本向量， 然后让它们通过相似度关联起来
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2、多模态信息对齐(Alignment)
 
 多模态对齐是指从2种或多种模态的子元素之间识别出来， 比如视频中的片段和这个视频片段的描述识别出来，
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)&#x20;
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)&#x20;
 
 常见的对齐方法分2种:
 
@@ -57,7 +57,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Model-Base**
 
@@ -86,7 +86,7 @@ translation 问题关注怎么把一个模态形式转换到另外一个模态�
 * **基于模型驱动方法**
   * 在字典上训练一个翻译模型，然后使用该模型进行翻译。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 多模态翻译任务的难点：
 
@@ -106,7 +106,7 @@ non-parallel: 非并行学习中不同模态的数据集可以分开多个， �
 
 hybrid: 实例的信息和知识通过第三方数据集把不同模态数据集关联起来
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
