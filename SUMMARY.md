@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [个人介绍](README.md)
+* [Introduction](<README (1).md>)
 
 ## RecSys
 
